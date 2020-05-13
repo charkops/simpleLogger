@@ -2,6 +2,8 @@
 
 #include <iostream>
 
+#include "colorCodes.hpp"
+
 namespace slog {
   // Logging level
   // Info < Warning < Error
@@ -30,5 +32,7 @@ namespace slog {
     void setLogLevel(Level level);
     void log(const char *message, bool newLine = true);
     void log(const std::string &message, bool newLine = true);
+
+    static void colorText(std::string &text, Color color);
   };
 };

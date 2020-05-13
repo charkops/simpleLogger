@@ -2,3 +2,6 @@
 
 * stdout outputting 
 * Levels of output; WARN(ing), ERROR, INFO
+
+* TODO: 
+  * Implement logInfo / logWarning / logError  
