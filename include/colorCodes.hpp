@@ -1,7 +1,5 @@
 #pragma once
 
-#include <string>
-
 // ANSI Color codes
 namespace slog {
 
